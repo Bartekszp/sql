@@ -1,0 +1,4 @@
+select imie, telefon, szczepienie opis from Zwierzeta
+select id, imie,wlasciciel from zwierzeta where rodzaj = "1"
+select z.imie, u.nazwa from zwierzeta z INNER join uslugi u on z.id = u.id;
+select avg(cena) from uslugi;
