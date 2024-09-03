@@ -1,0 +1,15 @@
+C:\Users\Programista_2\source\repos\kredty\kredty\bin\Debug\kredty.exe.config
+C:\Users\Programista_2\source\repos\kredty\kredty\bin\Debug\kredty.exe
+C:\Users\Programista_2\source\repos\kredty\kredty\bin\Debug\kredty.pdb
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty.csproj.AssemblyReference.cache
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\MainWindow.g.cs
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\App.g.cs
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty_MarkupCompile.cache
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty_MarkupCompile.lref
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\MainWindow.baml
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty.g.resources
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty.Properties.Resources.resources
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty.csproj.GenerateResource.cache
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty.csproj.CoreCompileInputs.cache
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty.exe
+C:\Users\Programista_2\source\repos\kredty\kredty\obj\Debug\kredty.pdb

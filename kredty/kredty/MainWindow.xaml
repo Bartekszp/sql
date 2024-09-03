@@ -1,0 +1,43 @@
+﻿<Window x:Class="kredty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kredty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Obliczenie raty kredytu" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,20,0,20">
+                <Label Content="Cel" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,60,0"/>
+                <ComboBox Width="120" HorizontalContentAlignment="Center" HorizontalAlignment="Right" SelectedIndex="0">
+                    <ComboBoxItem Content="Wakacje"/>
+                    <ComboBoxItem Content="Remont"/>
+                    <ComboBoxItem Content="Zakup Samochodu"/>
+                    <ComboBoxItem Content="Inne"/>
+                </ComboBox>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,20">
+                <Label Content="Kwota kredytu(zl)" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,0,0"/>
+                <TextBox x:Name="lblA" TextWrapping="Wrap" Text="" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Right"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,20">
+                <Label Content="Liczba rat(rata)" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,0,0"/>
+                <TextBox x:Name="lblB" TextWrapping="Wrap" Text="" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,20">
+                <Label Content="Oprocentowanie(%)" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,0,0"/>
+                <TextBox x:Name="lblC" TextWrapping="Wrap" Text="" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+        
+        <Button Content="Oblicz kredyt" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="30" Click="Button_Click"/>
+        <TextBox x:Name="txtBox" TextWrapping="Wrap" Text="" Width="250" Margin="0,20,0,0" Height="140"/>
+
+
+
+
+    </StackPanel>
+</Window>
